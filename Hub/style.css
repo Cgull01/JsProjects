@@ -1,0 +1,17 @@
+body{
+  background: #18191A;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 3rem;
+}
+
+li:hover {
+  color:#8FBCBB;
+}
+
+li {
+  font-family:FontAwesome;
+  color:#fff;
+  font-size:30px;
+}
+

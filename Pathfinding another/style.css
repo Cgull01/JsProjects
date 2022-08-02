@@ -1,0 +1,91 @@
+
+
+h1 {
+  user-select: none;
+}
+body {
+  background-color: #434c5e;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+
+table,
+tr,
+td {
+  width: 25px;
+}
+
+table {
+  border-spacing: 0px;
+  user-select: none;
+  width: 100%;
+}
+td {
+  background-color: #434c5e;
+  border: 0.1px solid rgba(129, 129, 165, 0.3);
+  height: 25px;
+  padding: 0px;
+  user-select: none;
+}
+
+tr {
+  user-select: none;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: darkgreen;
+}
+
+.portalStart {
+  border: 3px solid blue;
+  background-color: rgb(62, 62, 202);
+}
+
+.portalEnd {
+  border: 3px solid red;
+  background-color: rgb(218, 99, 99);
+}
+
+.path {
+  z-index: 1;
+  position: relative;
+  background-color: rgb(105, 195, 186);
+
+  /* transition: background-color 0.5s ease; */
+}
+
+.closedSet {
+  z-index: -1;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+
+.wall {
+  background-color: rgb(207, 225, 230);
+}
+
+@keyframes cellAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: rgb(12, 53, 71);
+  }
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(12, 53, 71);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgb(12, 53, 71);
+  }
+}

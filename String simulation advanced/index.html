@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div>
+
+      <canvas id="game" oncontextmenu="return false;">
+    </div>
+    <a id="logger"></a>
+  </div>
+
+  <button id="freezeButton">Freeze</button><br>
+  <button id="resetButton" class="smallbuttons">Reset</button> <br>
+  <button id="gridButton" class="smallbuttons" style="height: 50px;">Create grid</button> <br>
+
+  <p>
+    Left mouse - point <br>
+    Right mouse - anchor <br>
+    Ctrl - delete connections <br>
+    Ctrl + z - undo point
+  </p>
+
+  <input type="checkbox" id="connectionBool" style="display: none;">
+  <label for="connectionBool">enable multiple connections</label style="display: none;"> <br>
+
+  <input type="checkbox" id="pointBool" >
+  <label for="pointBool">show points</label>
+
+  </div>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

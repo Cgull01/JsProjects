@@ -1,0 +1,92 @@
+.button-container {
+    width: 400px;
+
+}
+
+body{
+    margin: auto;
+    width: 90%;
+    background-color: #434C5E;
+}
+
+.btn
+{
+    border: none;
+    border-radius: 6px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    background: #2E3440;
+    margin: 4px;
+    transition: 0.5s;
+}
+
+
+.btn:hover
+{
+    filter: brightness(0.85);
+
+}
+
+.btn:active
+{
+    filter: brightness(1);
+}
+
+.wrongSquare
+{
+    background:#BF616A;
+}
+
+.correctSquare
+{
+    background:#A3BE8C;
+}
+
+.disabled
+{
+    background: #2E3440;
+}
+
+.showed
+{
+    background: white;
+
+    transform: rotateX(180deg);
+
+    transition: 0.6s;
+}
+
+.hidden
+{
+    display: none;
+}
+
+
+
+a{
+    display:block;
+    color: #8FBCBB;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+}
+/*
+polar night
+dark #2E3440
+#3B4252
+#434C5E
+light dark #4C566A
+
+Aurora
+red #BF616A
+orange #D08770
+yellow #EBCB8B
+green #A3BE8C
+purple #B48EAD
+
+Frost
+#8FBCBB
+#88C0D0
+#81A1C1
+#5E81AC
+*/

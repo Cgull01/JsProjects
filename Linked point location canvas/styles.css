@@ -1,0 +1,64 @@
+body{
+  background-color: #434C5E;
+}
+
+canvas
+{
+  position: relative;
+  /* position: fixed; */
+  z-index: 1;
+
+  /* margin-left:10%; */
+  padding: 0;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 20px;
+
+  width: 600px;
+  height: 600px;
+
+  box-shadow: #000000 2px 2px 50px;
+
+}
+
+button{
+  margin-top: 1.5em;
+  background-color: #5E81AC;
+  border: none;
+  border-radius: 5px;
+  color:#d1e9f0;
+  cursor:pointer;
+}
+button:hover{
+  background-color: #678ab4;
+}
+button:active{
+  background-color: #5e7ca0;
+}
+
+
+label{
+  font-family: Calibri, sans-serif;
+  font-size: small;
+  color: white;
+}
+
+/* polar night
+dark #2E3440
+#3B4252
+#434C5E
+light dark #4C566A
+
+Aurora
+red #BF616A
+orange #D08770
+yellow #EBCB8B
+green #A3BE8C
+purple #B48EAD
+
+Frost
+#8FBCBB
+#88C0D0
+#81A1C1
+#5E81AC */

@@ -1,0 +1,23 @@
+body{
+    background-color: #434C5E;
+}
+
+canvas
+{
+    position: relative;
+    /* position: fixed; */
+    z-index: 1;
+
+    /* margin-left:10%; */
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+
+    width: 600px;
+    height: 600px;
+
+    box-shadow: #000000 2px 2px 50px;
+
+}
